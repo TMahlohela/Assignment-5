@@ -1,0 +1,46 @@
+{
+  "QuestionnaireDB": [
+    {
+      "question": "Does it take you long to complete a React CRUD? Yes No or Maybe",
+      "agree": 3,
+      "neutral": 4,
+      "disagree": 0,
+      "id": 2
+    },
+    {
+      "question": "Could you implement libraries as proficiently before now?",
+      "agree": 2,
+      "neutral": 3,
+      "disagree": 2,
+      "id": 3
+    },
+    {
+      "question": "Are you happy with the progress you've made thus far?",
+      "agree": 2,
+      "neutral": 2,
+      "disagree": 0,
+      "id": 4
+    },
+    {
+      "question": "Are there other technologies, frameworks and/or libraries youre working on or would like to work on?",
+      "agree": 0,
+      "neutral": 0,
+      "disagree": 0,
+      "id": 5
+    },
+    {
+      "question": "How are you finding studying and developing?",
+      "agree": 0,
+      "neutral": 0,
+      "disagree": 0,
+      "id": 6
+    },
+    {
+      "question": "Is there any past proect youd like to recreate using any latest technologies, frameworks and/or libraries",
+      "agree": 0,
+      "neutral": 0,
+      "disagree": 0,
+      "id": 7
+    }
+  ]
+}

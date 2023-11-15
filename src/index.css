@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--dim-light);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  /*colors*/
+  --base-color: #fff;
+  --white: white;
+  --shadows: #f0f0f0;
+  --dim-light:rgba(106, 216, 176, 0.877);
+  --task-reminder: ;
+  --theme-color: #5eebb567;
+  --secondary:#576e6a8a;
+  --add-button-color: var(--secondary);
+  --agree:rgb(0, 128, 0);
+  --disagree:rgba(248, 0, 0, 0.9);
+  --neautral:rgba(254, 221, 31, 0.7)
+}
+a {
+  font-weight: 500;
+  color: var(--base-color);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: xx-large;
+  line-height: 1.2;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+p {
+  font-size: large;
+  line-height: 0.8;
+  width: 80%;
+  margin-left:8px;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  padding: 0.5em;
+  font-size: large;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--white);
+  color:var(--secondary);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  display:flex;
+  justify-content: center;
+}
